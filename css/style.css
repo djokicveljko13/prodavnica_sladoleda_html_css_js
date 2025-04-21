@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pacifico", cursive;
+}
+#hero{
+    background: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/10/14080706/Rich-Chocolate-Gelato-.jpg) 
+    no-repeat center center/cover; 
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.hero-content h1{
+background-color: rgb(255, 255, 255);
+font-family: "Pacifico", cursive;
+}
+.hero-content{
+    background-color: aliceblue;
+    padding: 50px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     
+}
